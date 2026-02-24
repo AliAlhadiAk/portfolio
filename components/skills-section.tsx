@@ -3,11 +3,11 @@
 import { motion } from "framer-motion"
 
 const skills = [
-    { category: "Programming Languages", items: ["JavaScript", "TypeScript", "C", "C#", "Java", "Python", "Go", "SQL", "NoSQL"] },
-    { category: "Frameworks & Libraries", items: ["React.js", "Next.js", "Angular", "Express.js", "Nest.js", "Spring Boot", "Flask", "Tailwind"] },
-    { category: "Databases & ORMs", items: ["PostgreSQL", "MySQL", "MongoDB", "Prisma", "Hibernate", "JPA"] },
-    { category: "Tools", items: ["Git", "GitHub", "GitHub Actions", "Docker", "Playwright"] },
-    { category: "Runtime Environment", items: ["Node.js"] },
+    { category: "Programming Languages", items: ["C#", "Python", "TypeScript", "JavaScript", "Java", "SQL"] },
+    { category: "DevOps & Cloud", items: ["Kubernetes", "Docker", "GitLab CI/CD", "GitHub Actions", "AWS", "Prometheus"] },
+    { category: "Back-end & APIs", items: ["ASP.NET", "Fast API", "Express.js", "Node.js"] },
+    { category: "Front-end", items: ["Tailwind", "React.js", "Next.js"] },
+    { category: "Data & AI", items: ["LangChain", "FAISS (Vector DB)", "PostgreSQL", "MongoDB"] },
 ]
 
 export function SkillsSection() {

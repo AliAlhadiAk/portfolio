@@ -4,35 +4,23 @@ import { motion } from "framer-motion"
 import { Briefcase } from "lucide-react"
 
 const experiences = [
-
     {
         id: 1,
-        role: "Frontend Developer",
-        company: "Vertex Partners",
+        role: "Full stack software dev intern",
+        company: "Two of Us",
         period: "Apr 2025 - Oct 2025",
-        technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Google Maps", "React Hook Form", "Zod", "Shadcn UI", "Framer Motion", "visx/geo", "Next-intl", "Swr", "Recharts"],
+        description: "Built a fully comprehensive task management app for teams and collaborated on project with a team.",
+        technologies: ["Reactjs", "TypeScript", "Tailwind CSS", "Google Maps", "React Hook Form", "Zod", "Shadcn UI", "Framer Motion", "visx/geo", "Next-intl", "Swr", "Recharts"],
     },
     {
         id: 2,
-        role: "Fullstack Developer Volunteer",
-        company: "Big Data Specialist",
-        period: "Aug 2024 - present",
-        technologies: ["Nextjs", "TypeScript", "Tailwind CSS", "React Hook Form", "Zod", "Tanstack Query", "Redux Toolkit", "Shadcn UI", "Recharts", "Java", "Spring Boot", "Go", "Gin", "Gorm", "MySQL", "Python", "Flask", "Playwright", "Github Actions", "Docker", "Scraping", "Gemeni AI", "GCP", "Cron Jobs", "Vercel", "Cloudfare"],
+        role: "Freelancer",
+        company: "Independent",
+        period: "2023 - Present",
+        description: "Delivering high-quality software solutions for various clients, specializing in full-stack web applications and automation tools.",
+        technologies: ["Nextjs", "TypeScript", "Tailwind CSS", "ExpressJs", "NodeJs", "Postgres", "Prisma", "Docker", "AWS"],
     },
-    {
-        id: 3,
-        role: "Fullstack Developer Intern",
-        company: "3E Tech",
-        period: "Jan 2025 - Apr 2025",
-        technologies: ["React", "TypeScript", "Tailwind CSS", "Shadcn UI", "React Router", "Tanstack Query", "React Hook Form", "Zod", "Redux Toolkit", "ExpressJs", "NodeJs", "NestJs", "Postgres", "Prisma"],
-    },
-    {
-        id: 4,
-        role: "Software Developer Intern",
-        company: "Bracket Technologies",
-        period: "May 2025 - Aug 2025",
-        technologies: ["Bracket"],
-    }
+       
 ]
 
 export function ExperienceSection() {
@@ -115,6 +103,11 @@ export function ExperienceSection() {
                                                     <span className="text-foreground-subtle">•</span>
                                                     <span className="text-mono text-foreground-subtle">{experience.period}</span>
                                                 </div>
+                                                {experience.description && (
+                                                    <p className="text-sm text-foreground-muted max-w-2xl mb-4 leading-relaxed">
+                                                        {experience.description}
+                                                    </p>
+                                                )}
                                             </div>
                                         </div>
 

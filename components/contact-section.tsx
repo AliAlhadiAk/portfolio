@@ -5,9 +5,8 @@ import { useState } from "react"
 import { ArrowUpRight, Copy, Check } from "lucide-react"
 
 const links = [
-    { label: "Email", value: "mhmd.y.abbass@gmail.com", href: "mailto:mhmd.y.abbass@gmail.com", copyable: true },
-    { label: "GitHub", value: "Mohammad-y-abbass", href: "https://github.com/Mohammad-y-abbass" },
-    { label: "LinkedIn", value: "mohammad-abbass", href: "https://www.linkedin.com/in/mohammad-abbass/" },
+    { label: "Email", value: "alialhadiabokhalil@gmail.com", href: "mailto:alialhadiabokhalil@gmail.com", copyable: true },
+    { label: "GitHub", value: "AlialhadiAk", href: "https://github.com/AlialhadiAk" },
 ]
 
 const asciiArt = `

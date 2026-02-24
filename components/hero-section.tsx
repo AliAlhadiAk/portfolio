@@ -56,7 +56,7 @@ export function HeroSection() {
             <div className="w-full px-4 md:px-8 flex items-center justify-between">
                 <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
                     <motion.h1 variants={itemVariants} className="text-large font-normal text-foreground mb-4 md:mb-6">
-                        Mohammad Abbas
+                        Alialhadi AboKhalil
                     </motion.h1>
 
                     <motion.p variants={itemVariants} className="text-base text-muted-foreground max-w-sm md:max-w-md leading-relaxed">

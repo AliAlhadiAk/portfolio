@@ -9,7 +9,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 
 export const metadata: Metadata = {
-  title: "Mohammad Abbass",
+  title: "Alialhadi AboKhalil",
   description: "Full Stack Developer",
 }
 

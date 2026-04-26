@@ -14,13 +14,20 @@ const experiences = [
     },
     {
         id: 2,
+        role: "Software Engineering Intern",
+        company: "TechTalks",
+        period: "2025",
+        description: "Developed a project using Next.js while collaborating in a team environment. Followed branching strategies, pull request workflows, and applied software engineering best practices including clean code, performance optimization, and MongoDB database integration.",
+        technologies: ["Next.js", "TypeScript", "MongoDB", "Git", "GitHub", "Branching Strategies", "Clean Code", "Performance Optimization"],
+    },
+    {
+        id: 3,
         role: "Freelancer",
         company: "Independent",
         period: "2023 - Present",
         description: "Delivering high-quality software solutions for various clients, specializing in full-stack web applications and automation tools.",
         technologies: ["Nextjs", "TypeScript", "Tailwind CSS", "ExpressJs", "NodeJs", "Postgres", "Prisma", "Docker", "AWS"],
     },
-       
 ]
 
 export function ExperienceSection() {
